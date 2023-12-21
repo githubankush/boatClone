@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+                                /*---   1 rem = 16px           ---*/
+    font-size: 80%;            /*---     So from Now, 1rem = 10px ------*/
+
+}
+@media screen and (max-width:1245px)
+{
+    body{
+        background-color: pink;
+    }
+    nav ul{
+        width: 100vh;  
+    }
+    #in{
+        margin: 0px 10px;      /* SearchBox*/
+        font-size: smaller;
+    }
+    #side-image{
+        margin: 0rem 1rem;   /* SearchICON*/
+    }
+    #side-image2{
+        margin: 0rem 1rem;   /* Trolly*/
+    }
+    .new{
+        width: 30vh;
+        margin: 2rem;
+        height: 60vh;
+        box-shadow: none;
+        font-size: small;
+    }
+    .new video{
+        width: 15rem;
+        height: 35rem;
+    }
+   .card-box{
+    width: 100%;
+    height: 60vh;
+   }
+   .image-bg{
+    width: 30vh;
+    height: 30vh;
+   }
+   .card-text{
+    width: 28vh;
+    height: 26vh;
+    margin: 2rem;
+   }
+   #add{
+    width: 20vh;
+    align-items: center;
+    font-size: small;
+    margin: .5rem;
+    padding: .2rem 1.5rem;
+   }
+}
+
+
+/*- Max-width : 1080px   */
+@media screen and (max-width: 1080px) {
+    body{
+    background-color: blue;
+    }
+    
+   
+    .card{
+        width: 35vh;
+        margin: 0px;
+    } 
+    .card-text{
+        width: 26vh;
+        height: 25vh;
+        margin: 1.4rem;
+    }
+    .image-bg img{
+        width: 30vh;
+        height: 28vh;
+    }
+
+    .new-launch{
+        width: 100%;
+      
+    }
+    .new{
+        width: 25vh ;
+       
+        margin: 1rem;
+    }
+}
+@media screen and (max-width: 1037px)
+{
+    body{
+        background-color: yellow;
+    }
+    .logo img{
+        width: 7rem;
+        height: 2.rem;
+    }
+    nav ul{
+        width: 80vh;
+    }
+ 
+    nav ul li a{
+        padding: 0px;
+        font-size: smaller;
+    }
+    .card{
+        width: 30vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        background-color: purple;
+    }
+    .menu{
+        width: 100%;
+        height: 65vh;
+    }
+    .banner{
+        width: 98%;
+        height: 50vh;
+    }
+
+    /*-----------Daily Deals--------*/
+    .image-bg{
+        width: 25vh;
+        height: 22vh;
+    }
+    .image-bg img{
+        width: 25vh;
+        height: 22vh;
+        margin: auto;
+    }
+    .card-text{
+        width: 20vh;
+        height: 20vh;
+        margin: auto;
+        font-size: 1.2rem;
+    }
+    .card{
+        width: 25vh;
+        height: 45vh;
+    }
+    #add{
+        width: 15vh;
+        height: 3vh;
+        padding-left: 1.2rem;
+        font-size: 1rem;
+
+    }
+
+    /*---------New_launch------*/
+    
+}
+
+/*-----------For iPhone--------*/
+@media screen and (max-width:400px) {
+    body{
+        background-color: aqua;
+    }
+    .top-slogan{
+       width: 100%;
+       height: 2vh;
+       font-size: .6re,;
+    }
+    .top{
+        width: 100%;
+        height: 5vh;
+    }
+    .logo img{
+        width: 45px;
+        height: 2rem;
+    }
+    nav ul{
+        padding: 0px;
+    }
+    nav ul li{
+        margin-left: .5rem;
+        
+    }
+    nav ul li a{
+        font-size: .8rem;
+    }
+    #in, #side-image, #side-image2{
+        display: none;
+    }
+    .facility{
+        display: none;
+    }
+    .banner{
+        width: 50vh;
+        height: 60vh;
+        background-position: center;
+            background-size: cover;
+    }
+    .menu{
+        height: 60vh;
+    }
+    .daily-deals{
+        width: 100%;
+        height: 155vh;
+      
+    }
+    .daily-deals h3{
+        padding: 0px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .card-box{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    .image-bg{
+        width: 20vh;
+    }
+    .image-bg img{
+        width: 23vh;
+    }
+    .card{
+        margin: .5rem;
+        padding: .5rem;
+    }
+    .new-launch{
+        width: 96%;
+        height: 190vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      
+    }
+    .new{
+        
+       margin: 0px;
+       
+    }
+}
